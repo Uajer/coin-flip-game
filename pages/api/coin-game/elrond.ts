@@ -67,7 +67,7 @@ const handler = async(
       const data = new TransactionPayload("flip coin")
 
       // const senderAddress = new Address("erd1n63y70nsmh6hr9dde9spz4tk2gf42vskhus54mkc0unp4ssjt95s5zw6g4");
-      const senderAddress = new Address("erd10zemyy2hnlh93wxd7sxz0z5p6e5u42wmqdrvka8jf293r6yjk4asfk7mv9");
+      const senderAddress = new Address("erd12l9glhqgz6qejznv2hed8j8yuat5k4lrjn9n8yqjlwswgcsyd6jqvyc33z");
       const sender = new Account(senderAddress);
       const senderOnNetwork = await networkProvider.getAccount(senderAddress);
       sender.update(senderOnNetwork);
